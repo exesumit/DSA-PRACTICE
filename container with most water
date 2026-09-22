@@ -12,6 +12,8 @@ public:
             int area = h * width;
             ans = max(ans, area);
 
+
+
             if (height[left] < height[right]) {
                 left++;
             }
