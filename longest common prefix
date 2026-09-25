@@ -10,6 +10,7 @@ public:
             while(j<prefix.length() && j<strs[i].length() && prefix[j] == strs[i][j]){
                 j++;
 
+
             }
             prefix = prefix.substr(0,j);
 
