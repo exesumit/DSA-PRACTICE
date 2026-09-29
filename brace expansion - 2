@@ -3,6 +3,8 @@ public:
 
     set<string> solve(string &s, int &i) {
         set<string> ans;
+
+
         set<string> curr;
 
         curr.insert("");
